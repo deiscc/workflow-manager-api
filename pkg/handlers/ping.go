@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/deis/workflow-manager-api/pkg/swagger/restapi/operations"
+	"github.com/deiscc/workflow-manager-api/pkg/swagger/restapi/operations"
 	"github.com/go-swagger/go-swagger/httpkit/middleware"
 )
 

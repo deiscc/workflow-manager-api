@@ -9,7 +9,7 @@ import (
 	"github.com/go-swagger/go-swagger/swag"
 	graceful "github.com/tylerb/graceful"
 
-	"github.com/deis/workflow-manager-api/pkg/swagger/restapi/operations"
+	"github.com/deiscc/workflow-manager-api/pkg/swagger/restapi/operations"
 )
 
 //go:generate swagger generate server -t ../.. -A WorkflowManager -f ./swagger.yml

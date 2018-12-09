@@ -3,7 +3,7 @@ package data
 import (
 	"fmt"
 
-	"github.com/deis/workflow-manager-api/pkg/swagger/models"
+	"github.com/deiscc/workflow-manager-api/pkg/swagger/models"
 )
 
 // ComponentAndTrain represents a component and its train. It is used in functions such as

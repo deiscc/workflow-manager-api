@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/deis/workflow-manager-api/rest"
+	"github.com/deiscc/workflow-manager-api/rest"
 )
 
 // PersistentClustersFilter is the struct used to filter on persistent clusters at a given time.

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/deis/workflow-manager-api/rest"
+	"github.com/deiscc/workflow-manager-api/rest"
 )
 
 type keyAndTime struct {

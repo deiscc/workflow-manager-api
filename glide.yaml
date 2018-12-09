@@ -1,4 +1,4 @@
-package: github.com/deis/workflow-manager-api
+package: github.com/deiscc/workflow-manager-api
 import:
 - package: github.com/gorilla/mux
 - package: github.com/jmoiron/sqlx

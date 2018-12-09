@@ -6,7 +6,7 @@ package operations
 import (
 	"net/http"
 
-	"github.com/deis/workflow-manager-api/pkg/swagger/models"
+	"github.com/deiscc/workflow-manager-api/pkg/swagger/models"
 	"github.com/go-swagger/go-swagger/errors"
 	middleware "github.com/go-swagger/go-swagger/httpkit/middleware"
 	"github.com/go-swagger/go-swagger/httpkit/validate"

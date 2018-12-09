@@ -3,9 +3,9 @@ package handlers
 import (
 	"time"
 
-	"github.com/deis/workflow-manager-api/pkg/data"
-	"github.com/deis/workflow-manager-api/pkg/swagger/restapi/operations"
-	"github.com/deis/workflow-manager-api/rest"
+	"github.com/deiscc/workflow-manager-api/pkg/data"
+	"github.com/deiscc/workflow-manager-api/pkg/swagger/restapi/operations"
+	"github.com/deiscc/workflow-manager-api/rest"
 )
 
 func parseCheckinsQueryKeys(params operations.GetClusterCheckinsParams) (*data.ClusterCheckinsFilter, error) {

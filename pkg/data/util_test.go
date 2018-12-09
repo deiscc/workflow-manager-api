@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/arschles/assert"
-	"github.com/deis/workflow-manager-api/pkg/swagger/models"
+	"github.com/deiscc/workflow-manager-api/pkg/swagger/models"
 	sqlxTypes "github.com/jmoiron/sqlx/types"
 )
 

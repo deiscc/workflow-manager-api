@@ -7,7 +7,7 @@ cache:
     - vendor
 env:
   global:
-    - IMAGE_PREFIX=deisci
+    - IMAGE_PREFIX=deiscc
 services:
   - docker
 sudo: required

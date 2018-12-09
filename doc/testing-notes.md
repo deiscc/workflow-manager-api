@@ -1,13 +1,13 @@
 # Testing Locally
 
-  Sometimes we wish to test a local version of Workflow Manager API, rather than hitting our staging or prod environments, potentially also using a certain version of the [Workflow Manager client](https://github.com/deis/workflow-manager).  
+  Sometimes we wish to test a local version of Workflow Manager API, rather than hitting our staging or prod environments, potentially also using a certain version of the [Workflow Manager client](https://github.com/deiscc/workflow-manager).  
 
   Here we provide the dependencies and steps needed to do so.
 
 ## Dependencies
 
   - [psql](https://www.postgresql.org/docs/9.2/static/app-psql.html)
-  - a running [Deis Workflow](https://github.com/deis/workflow/blob/master/src/installing-workflow/index.md) cluster...
+  - a running [Deis Workflow](https://github.com/deiscc/workflow/blob/master/src/installing-workflow/index.md) cluster...
   - installed on a [Kubernetes](http://kubernetes.io/) cluster
 
 ## Steps
@@ -38,7 +38,7 @@
       WORKFLOW_MANAGER_API_DBPASS=“${DBPASS}" \
       WORKFLOW_MANAGER_API_PORT=8081 \
       -a wfm-api
-    deis pull quay.io/deisci/workflow-manager-api:canary -a wfm-api
+    deis pull quay.io/deiscc/workflow-manager-api:canary -a wfm-api
     # optionally, specify org/workflow-manager-api:tag
     # to test a different wfm-api version, provided the image is
     # publicly accessible

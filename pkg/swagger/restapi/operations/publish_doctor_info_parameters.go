@@ -11,7 +11,7 @@ import (
 
 	strfmt "github.com/go-swagger/go-swagger/strfmt"
 
-	"github.com/deis/workflow-manager-api/pkg/swagger/models"
+	"github.com/deiscc/workflow-manager-api/pkg/swagger/models"
 )
 
 // NewPublishDoctorInfoParams creates a new PublishDoctorInfoParams object

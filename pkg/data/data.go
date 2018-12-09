@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/deis/workflow-manager-api/config"
+	"github.com/deiscc/workflow-manager-api/config"
 	"github.com/jinzhu/gorm"
 )
 

@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/deis/workflow-manager-api/pkg/data"
-	"github.com/deis/workflow-manager-api/pkg/swagger/models"
-	"github.com/deis/workflow-manager-api/pkg/swagger/restapi/operations"
+	"github.com/deiscc/workflow-manager-api/pkg/data"
+	"github.com/deiscc/workflow-manager-api/pkg/swagger/models"
+	"github.com/deiscc/workflow-manager-api/pkg/swagger/restapi/operations"
 	"github.com/go-swagger/go-swagger/httpkit/middleware"
 	"github.com/jinzhu/gorm"
 )

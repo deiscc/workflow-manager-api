@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/deis/workflow-manager-api/rest"
+	"github.com/deiscc/workflow-manager-api/rest"
 )
 
 // ClusterCheckinsFilter is the struct used to filter on cluster checkins. It represents the conjunction
